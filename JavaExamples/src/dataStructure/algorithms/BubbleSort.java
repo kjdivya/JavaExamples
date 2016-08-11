@@ -1,37 +1,7 @@
 package dataStructure.algorithms;
 
-public class BubbleSort implements MySort
+public class BubbleSort extends SortAbstractClass
 {
-	static int[] array = null;
-	public static void main(String[] args) 
-	{
-		MySort sort = new BubbleSort();
-		
-		array = new int[] {3,6,2,7,1,8,5};
-		
-		System.out.println("Before Sort");
-		sort.printArray(array);
-		
-		
-		sort.sort(array);
-		
-		System.out.println("Before Sort");
-		sort.printArray(array);
-	}
-	
-	public void printArray(int[] array)
-	{
-		int size = array.length;
-		
-		for(int i = 0 ; i < size; i++)
-		{
-			System.out.print(" "+ array[i]);
-		}
-		System.out.println();
-		System.out.println("****************");
-	}
-
-	@Override
 	public void sort(int[] array)
 	{
 		int temp = -1;
@@ -50,9 +20,7 @@ public class BubbleSort implements MySort
 					isSorted = true;
 					printArray(array);
 				}
-				
 			}
-			
 			if(isSorted)
 				isSorted = false;
 		}
