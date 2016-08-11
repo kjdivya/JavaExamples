@@ -1,6 +1,6 @@
 package dataStructure.algorithms;
 
-public abstract class SortAbstractClass implements MySort {
+public abstract class SortAbstractClass implements SortInterface {
 
 	@Override
 	public abstract void sort(int[] array);

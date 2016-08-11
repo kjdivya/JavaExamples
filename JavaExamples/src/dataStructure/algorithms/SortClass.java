@@ -8,7 +8,7 @@ public class SortClass {
 		
 //		MySort sort = new BubbleSort();
 		
-		MySort sort = new SelectionSort();
+		SortInterface sort = new SelectionSort();
 		
 		array = new int[] {5, 1, 12, -5, 16, 2, 12, 14}; //{3,6,2,7,1,8,5};
 		
