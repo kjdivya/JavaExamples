@@ -6,9 +6,8 @@ public class SortClass {
 	
 	public static void main(String[] args) {
 		
-//		MySort sort = new BubbleSort();
-		
-		SortInterface sort = new SelectionSort();
+//		MySort sort = new BubbleSort(); // O(n2)
+		SortInterface sort = new SelectionSort(); 
 		
 		array = new int[] {5, 1, 12, -5, 16, 2, 12, 14}; //{3,6,2,7,1,8,5};
 		
