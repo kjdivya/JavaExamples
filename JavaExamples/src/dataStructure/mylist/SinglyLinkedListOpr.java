@@ -1,4 +1,4 @@
-package mylist;
+package dataStructure.mylist;
 
 public class SinglyLinkedListOpr {
 
