@@ -1,4 +1,4 @@
-package leetcode;
+package src.leetcode;
 
 public class CountNegativeNumbers {
 
