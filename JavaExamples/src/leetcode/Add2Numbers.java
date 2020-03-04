@@ -67,8 +67,6 @@ public class Add2Numbers {
 			resNode = resNode.next;
 			
 			l1 = l1.next;
-			/*if (l1 != null)
-				carry = 0;*/
 		}
 		
 		if(carry == 1)
